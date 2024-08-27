@@ -44,25 +44,25 @@ Make sure you have the following installed:
 
 2. **Install dependencies:**
 
-   ``bash
+   ```bash
    npm install
 
 3. **Compile the smart contracts:**
 
-   ``bash
+   ```bash
    # Example command, adjust based on your setup
    npx ton-compiler contracts/*.sol
 
 4. **Run tests:**
 
-   ``bash
+   ```bash
    npm test
 
 
 ### Deployment
    You can deploy the contracts to the TON blockchain using the provided scripts:
 
-   ``bash
+   ```bash
    # Example command, adjust based on your deployment strategy
    npx ton-deploy scripts/deploy.js
    
