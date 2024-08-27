@@ -65,6 +65,8 @@ Make sure you have the following installed:
    # Example command, adjust based on your deployment strategy
    npx ton-deploy scripts/deploy.js
 
+<br/>
+
 ## 🤝 Contributing
 Contributions are welcome! If you have any improvements, bug fixes, or new features, feel free to submit a pull request. Please ensure your changes are well-documented and tested.
 
