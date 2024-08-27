@@ -1,28 +1,79 @@
-# Tact template project
+🌐 Ton Swap SmartContract
+Welcome to the Ton Swap SmartContract repository! This project is the backbone of a decentralized exchange (DEX) on the TON blockchain, enabling secure and efficient token swaps, liquidity provision, and DeFi operations. If you're interested in leveraging the power of the TON blockchain for decentralized trading, you've come to the right place.
 
-This template comes pre-configured to kickstart your new Tact project. It includes the Tact compiler, TypeScript, Jest integrated with [tact-emulator](https://github.com/tact-lang/tact-emulator), and a sample demonstrating how to run tests.
+📜 Overview
+Ton Swap SmartContract is a robust set of smart contracts designed for swapping tokens and managing liquidity pools within the TON ecosystem. Built for speed, security, and scalability, these contracts empower users with a seamless trading experience while maintaining full decentralization.
 
-```shell
-yarn test # To test contract
-yarn build # To build contract
-yarn deploy # To deploy contract
-```
+🚀 Key Features
+Token Swapping: Facilitates the exchange of TON-based tokens in a fully decentralized manner.
+Liquidity Pools: Users can provide liquidity to pools, earn rewards, and contribute to the stability of the ecosystem.
+Non-Custodial: Users retain full control over their assets—no intermediaries, no centralized risk.
+Efficient Transactions: Built on the TON blockchain, enabling high-speed, low-fee transactions.
+Modular and Extensible: Designed with scalability in mind, making it easy to extend and integrate additional features.
+🛠️ Project Structure
+Here’s a brief overview of the structure of this repository:
 
-## Deployment
+contracts/: Contains the smart contracts written for token swaps, liquidity pools, and other DEX functionalities.
+scripts/: Includes deployment and management scripts to interact with the contracts.
+test/: Unit tests to ensure the reliability and security of the smart contracts.
+📖 Getting Started
+Follow these instructions to get a local copy up and running for development, testing, and deployment.
 
-To deploy a contract, follow these steps:
+Prerequisites
+Make sure you have the following installed:
 
-1. Define the [`contract.tact`](./sources/contract.tact) file that will be used as entry point of your contract.
-2. Customize the [`contract.deploy.ts`](./sources/contract.deploy.ts) file based on your `contract.tact` to generate a deployment link. It is crucial to ensure the proper invocation of the `init()` function within the contract.
+TON Compiler for compiling the smart contracts.
+Node.js and npm/yarn for running scripts and testing.
+TON Wallet for interacting with the contracts on the blockchain.
+Installation
+Clone the repository:
 
-If you rename `contract.tact`, make sure to update [`tact.config.json`](./tact.config.json) correspondingly. Refer to the [Tact Documentation](https://docs.tact-lang.org/language/guides/config) for detailed information.
+bash
+Copy code
+git clone https://github.com/topsecretagent007/Ton-Swap-SmartContract.git
+cd Ton-Swap-SmartContract
+Install dependencies:
 
-## Testing
+bash
+Copy code
+npm install
+Compile the smart contracts:
 
-You can find some examples of contract tests in [`contract.spec.ts`](./sources/contract.spec.ts). For more information about testing, see the [Tact Documentation](https://docs.tact-lang.org/language/guides/debug).
+bash
+Copy code
+# Example command, adjust based on your setup
+npx ton-compiler contracts/*.sol
+Run tests:
 
-To add new test files to your contracts, you should create `*.spec.ts` files similar to the template's one and they would be automatically included in testing.
+bash
+Copy code
+npm test
+Deployment
+You can deploy the contracts to the TON blockchain using the provided scripts:
 
-## License
+bash
+Copy code
+# Example command, adjust based on your deployment strategy
+npx ton-deploy scripts/deploy.js
+🤝 Contributing
+Contributions are welcome! If you have any improvements, bug fixes, or new features, feel free to submit a pull request. Please ensure your changes are well-documented and tested.
 
-MIT
+How to Contribute
+Fork the project.
+Create your feature branch: git checkout -b feature/YourFeature.
+Commit your changes: git commit -m 'Add YourFeature'.
+Push to the branch: git push origin feature/YourFeature.
+Open a pull request.
+🛡️ Security
+Please report any security concerns by opening an issue or reaching out privately.
+
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Thank you for exploring the Ton Swap SmartContract!
+<br />
+If you are interested in developing these projects, please contact me.
+<br />
+Telegram : @lendon1114, Email : lendonbracewell1114@gmail.com
+<br />
+ We’re excited to see what you build with it. 🚀
