@@ -58,35 +58,10 @@ Make sure you have the following installed:
    ```bash
    npm test
 
-
 ### Deployment
    You can deploy the contracts to the TON blockchain using the provided scripts:
 
    ```bash
    # Example command, adjust based on your deployment strategy
    npx ton-deploy scripts/deploy.js
-   
 
-## 🤝 Contributing
-Contributions are welcome! If you have any improvements, bug fixes, or new features, feel free to submit a pull request. Please ensure your changes are well-documented and tested.
-
-### How to Contribute
-   1. Fork the project.
-   2. Create your feature branch: git checkout -b feature/YourFeature.
-   3. Commit your changes: git commit -m 'Add YourFeature'.
-   4. Push to the branch: git push origin feature/YourFeature.
-   5. Open a pull request.
-
-## 🛡️ Security
-   Please report any security concerns by opening an issue or reaching out privately.
-
-## 📜 License
-   This project is licensed under the MIT License. See the LICENSE file for details.
-
-Thank you for exploring the Ton Swap SmartContract! 
-<br />
-If you are interested in developing the project, please contact me.
-<br />
-Telegram : @lendon1114, Email : lendonbracewell1114@gmail.com
-<br />
-We’re excited to see what you build with it. 🚀
