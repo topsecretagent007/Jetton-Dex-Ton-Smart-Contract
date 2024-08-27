@@ -65,26 +65,30 @@ Make sure you have the following installed:
    # Example command, adjust based on your deployment strategy
    npx ton-deploy scripts/deploy.js
 
+### Updated (without code block):
+```markdown
 ## 🤝 Contributing
 Contributions are welcome! If you have any improvements, bug fixes, or new features, feel free to submit a pull request. Please ensure your changes are well-documented and tested.
 
 ### How to Contribute
-   1. Fork the project.
-   2. Create your feature branch: git checkout -b feature/YourFeature.
-   3. Commit your changes: git commit -m 'Add YourFeature'.
-   4. Push to the branch: git push origin feature/YourFeature.
-   5. Open a pull request.
+
+1. Fork the project.
+2. Create your feature branch: `git checkout -b feature/YourFeature`.
+3. Commit your changes: `git commit -m 'Add YourFeature'`.
+4. Push to the branch: `git push origin feature/YourFeature`.
+5. Open a pull request.
 
 ## 🛡️ Security
-   Please report any security concerns by opening an issue or reaching out privately.
+
+Please report any security concerns by opening an issue or reaching out privately.
 
 ## 📜 License
-   This project is licensed under the MIT License. See the LICENSE file for details.
 
-Thank you for exploring the Ton Swap SmartContract! 
-<br />
-If you are interested in developing the project, please contact me.
-<br />
-Telegram : @lendon1114, Email : lendonbracewell1114@gmail.com
-<br />
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Thank you for exploring the Ton Swap SmartContract!  
+If you are interested in developing the project, please contact me.  
+Telegram: @lendon1114, Email: lendonbracewell1114@gmail.com
+
 We’re excited to see what you build with it. 🚀
+
