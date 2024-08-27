@@ -41,43 +41,47 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/topsecretagent007/Ton-Swap-SmartContract.git
    cd Ton-Swap-SmartContract
-Install dependencies:
 
-bash
-Copy code
-npm install
-Compile the smart contracts:
+2. **Install dependencies:**
 
-bash
-Copy code
-# Example command, adjust based on your setup
-npx ton-compiler contracts/*.sol
-Run tests:
+   ``bash
+   npm install
 
-bash
-Copy code
-npm test
-Deployment
-You can deploy the contracts to the TON blockchain using the provided scripts:
+3. **Compile the smart contracts:**
 
-bash
-Copy code
-# Example command, adjust based on your deployment strategy
-npx ton-deploy scripts/deploy.js
-🤝 Contributing
+   ``bash
+   # Example command, adjust based on your setup
+   npx ton-compiler contracts/*.sol
+
+4. **Run tests:**
+
+   ``bash
+   npm test
+
+
+### Deployment
+   You can deploy the contracts to the TON blockchain using the provided scripts:
+
+   ``bash
+   # Example command, adjust based on your deployment strategy
+   npx ton-deploy scripts/deploy.js
+   
+
+## 🤝 Contributing
 Contributions are welcome! If you have any improvements, bug fixes, or new features, feel free to submit a pull request. Please ensure your changes are well-documented and tested.
 
-How to Contribute
-Fork the project.
-Create your feature branch: git checkout -b feature/YourFeature.
-Commit your changes: git commit -m 'Add YourFeature'.
-Push to the branch: git push origin feature/YourFeature.
-Open a pull request.
-🛡️ Security
-Please report any security concerns by opening an issue or reaching out privately.
+### How to Contribute
+   1. Fork the project.
+   2. Create your feature branch: git checkout -b feature/YourFeature.
+   3. Commit your changes: git commit -m 'Add YourFeature'.
+   4. Push to the branch: git push origin feature/YourFeature.
+   5. Open a pull request.
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🛡️ Security
+   Please report any security concerns by opening an issue or reaching out privately.
+
+## 📜 License
+   This project is licensed under the MIT License. See the LICENSE file for details.
 
 Thank you for exploring the Ton Swap SmartContract! 
 <br />
