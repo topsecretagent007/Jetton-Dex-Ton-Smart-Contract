@@ -58,14 +58,12 @@ Make sure you have the following installed:
    ```bash
    npm test
 
-### Deployment
+ ### Deployment
    You can deploy the contracts to the TON blockchain using the provided scripts:
 
    ```bash
    # Example command, adjust based on your deployment strategy
    npx ton-deploy scripts/deploy.js
-
-<br/>
 
 ## 🤝 Contributing
 Contributions are welcome! If you have any improvements, bug fixes, or new features, feel free to submit a pull request. Please ensure your changes are well-documented and tested.
