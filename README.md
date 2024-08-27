@@ -62,7 +62,6 @@ Make sure you have the following installed:
    You can deploy the contracts to the TON blockchain using the provided scripts:
 
    ```bash
-   # Example command, adjust based on your deployment strategy
    npx ton-deploy scripts/deploy.js
 
 
