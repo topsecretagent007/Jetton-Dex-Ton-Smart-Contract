@@ -90,5 +90,5 @@ If you are interested in developing the project, please contact me.
 Telegram: @lendon1114, <br />
 Email: lendonbracewell1114@gmail.com
 
-We’re excited to see what you build with it. 🚀
+I am excited to see what you build with it. 🚀
 
