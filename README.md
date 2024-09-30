@@ -87,8 +87,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Thank you for exploring the Ton Swap SmartContract!  
 If you are interested in developing the project, please contact me.  
-Telegram: @lendon1114, <br />
-Email: lendonbracewell1114@gmail.com
+Telegram: @topsecretagent_007, <br />
 
 I am excited to see what you build with it. 🚀
 
